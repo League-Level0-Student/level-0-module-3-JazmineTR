@@ -7,6 +7,18 @@ public class WalkOfFame {
 	public static void main(String[] args) {
 		Robot rob = new Robot();
 		
+		
+		rob.setX(50);
+		rob.show();
+		
+		rob.penDown();
+		rob.setSpeed(100);
+		for(int i=0;i<5; i++) {
+		rob.move(30);
+		rob.turn(144);
+		
+	}
+	rob.hide();
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
 
